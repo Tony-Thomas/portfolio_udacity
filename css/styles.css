@@ -50,4 +50,7 @@
 
 .main-image {}
 .featured-title {}
-.project-img {}
+.project-img {
+    margin-left: auto;
+    margin-right: auto;
+}
