@@ -11,6 +11,10 @@
     font-weight: 300;
 }
 
+.nav {
+    background-color: #ffffff;
+}
+
 .social {
     float: right;
 }
