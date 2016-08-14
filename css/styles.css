@@ -1,6 +1,6 @@
-* {
+/* {
    outline: 1px solid red !important;
-}
+}*/
 
 * {
     -webkit-box-sizing: border-box;
@@ -51,6 +51,44 @@
 .github-link {
     text-align: center;
     word-wrap: break-word;
+}
+
+.your-name h2{
+            font-size: 36px
+        }
+
+@media screen and (max-width: 484px) {
+  .logo {
+    width: 120px;
+    margin-top: 12px;
+  }
+  .your-name h2{
+    font-size: 24px;
+  }
+  .your-name h5{
+    font-size: 10px
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 90px;
+    margin-top: 20px;
+  }
+  .your-name h2{
+    font-size: 24px;
+  }
+
+  .your-name h5{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+    .featured-title{
+        text-align: center;
+    }
 }
 
 .main-image {}
