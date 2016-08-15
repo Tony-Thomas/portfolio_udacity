@@ -108,7 +108,7 @@ hr {
 @media screen and (max-width: 360px) {
   .logo {
     width: 70px;
-    margin-top: 21px;
+    margin-top: 19px;
   }
 
   .your-name h2{
@@ -116,7 +116,8 @@ hr {
   }
 
   .your-name h5{
-    font-size: 10px;
+    font-size: 8px;
+    margin-right: 3px;
   }
 }
 
