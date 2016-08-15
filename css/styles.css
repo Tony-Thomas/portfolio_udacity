@@ -20,9 +20,17 @@ hr {
     margin-bottom: 5px;
 }
 
+.job-title {
+    margin-top: 0px;
+}
+
+.my-name {
+    margin-bottom: 0px;
+}
+
 .logo {
-    width: 150px;
-    margin-top: 12px
+    width: 130px;
+    margin-top: 16px
 }
 
 .nav {
