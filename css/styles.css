@@ -17,7 +17,7 @@
 
 hr {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .job-title {
@@ -42,7 +42,7 @@ hr {
 
 .social {
     float: right;
-    margin-top: 7px;
+    margin-top: 0px;
 }
 
 .icons {
