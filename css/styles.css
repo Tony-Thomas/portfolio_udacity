@@ -23,6 +23,8 @@ hr {
 .job-title {
     margin-top: 0px;
     font-size: 13px;
+    margin-bottom: 0px;
+    margin-right: 3px;
 }
 
 .my-name {
@@ -31,7 +33,7 @@ hr {
 
 .logo {
     width: 130px;
-    margin-top: 16px
+    margin-top: 7px;
 }
 
 .nav {
@@ -56,11 +58,10 @@ hr {
     margin-left: 8px;
 }
 
-/*.projects {
-    color: black;
-}*/
-
-/*color: black;*/
+.project-img {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .project-text {
     color: black;
@@ -75,6 +76,12 @@ hr {
 .your-name h2{
             font-size: 36px
         }
+
+@media screen and (max-width: 991px) {
+    .featured-title{
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 484px) {
   .logo {
@@ -128,21 +135,8 @@ hr {
     }
 }
 
-@media screen and (max-width: 991px) {
-    .featured-title{
-        text-align: center;
-    }
-}
 
-/*@media screen and (max-width: 360px) {
-    .logo {
-        width: 90px;
-    }
-}*/
+
 
 .main-image {}
 .featured-title {}
-.project-img {
-    margin-left: auto;
-    margin-right: auto;
-}
