@@ -15,6 +15,11 @@
     font-weight: 300;
 }
 
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .logo {
     width: 150px;
     margin-top: 12px
