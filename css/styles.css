@@ -51,6 +51,7 @@ hr {
 .social {
     float: right;
     margin-top: 0px;
+    padding-left: 0px;
 }
 
 .icons {
@@ -141,6 +142,13 @@ hr {
         width: 60px;
         margin-top: 25px;
     }
+    .icons {
+        width: 25px;
+    }
+    .github-icon {
+        width: 18px;
+        height: 18px;
+        margin-top: 4px;
 }
 
 
