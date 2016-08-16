@@ -86,11 +86,28 @@ hr {
             font-size: 36px
         }
 
-@media screen and (max-width: 991px) {
-    .featured-title{
+.featured-title {
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.nav>li>a {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@media screen and (max-width: 767px) {
+    .featured-title {
         text-align: center;
     }
 }
+
+/*@media screen and (max-width: 800px) {
+    .featured-title {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+}*/
 
 @media screen and (max-width: 484px) {
   .logo {
@@ -155,4 +172,4 @@ hr {
 
 
 .main-image {}
-.featured-title {}
+
