@@ -67,6 +67,12 @@ hr {
     margin-left: 8px;
 }
 
+.main-image {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .project-img {
     margin-left: auto;
     margin-right: auto;
@@ -96,6 +102,10 @@ hr {
     padding-right: 7px;
 }
 
+.projects {
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (max-width: 767px) {
     .featured-title {
         text-align: center;
