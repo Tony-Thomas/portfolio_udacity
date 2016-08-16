@@ -40,6 +40,14 @@ hr {
     background-color: #ffffff;
 }
 
+.nav-btn {
+    border-style: none;
+    margin-top: 3px;
+}
+
+.icon-bar {
+    color: black;
+}
 .social {
     float: right;
     margin-top: 0px;
@@ -85,14 +93,14 @@ hr {
 
 @media screen and (max-width: 484px) {
   .logo {
-    width: 120px;
-    margin-top: 12px;
+    width: 85px;
+    margin-top: 22px;
   }
   .your-name h2{
     font-size: 30px;
   }
   .your-name h5{
-    font-size: 13px
+    font-size: 10px
   }
 
 }
@@ -100,7 +108,7 @@ hr {
 @media screen and (max-width: 375px) {
     .logo {
         width: 75px;
-        margin-top: 27px;
+        margin-top: 15px;
     }
 
     .your-name h2{
