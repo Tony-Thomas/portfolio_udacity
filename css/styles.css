@@ -3,7 +3,7 @@
 }*/
 
 * {
-    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* validator says these are unkown vendor extensions. I dont understand the error?*/
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
@@ -102,13 +102,6 @@ hr {
     }
 }
 
-/*@media screen and (max-width: 800px) {
-    .featured-title {
-        font-size: 22px;
-        margin-bottom: 2px;
-    }
-}*/
-
 @media screen and (max-width: 484px) {
   .logo {
     width: 85px;
@@ -167,9 +160,3 @@ hr {
         height: 18px;
         margin-top: 4px;
 }
-
-
-
-
-.main-image {}
-
